@@ -1,8 +1,7 @@
 # Identifier — Testes Funcionais (JUnit 5)
 
 Implementação dos testes automatizados do programa **Identifier**, seguindo os
-casos de teste definidos em `Trajeto_Metro--GTP-2020-10-09.xlsx` (aba *Test Suite*)
-e a estrutura formal pedida no enunciado (**Setup / Invocation / Assessment**).
+casos de teste definidos.
 
 ## Estrutura do projeto
 
@@ -19,7 +18,7 @@ identifier-project/
         └── IdentifierTest.java    # suíte JUnit 5 (17 testes)
 ```
 
-## Casos de teste cobertos (planilha)
+## Casos de teste cobertos
 
 | # | Caso | Entrada | Esperado |
 |---|------|---------|----------|
@@ -41,8 +40,7 @@ identifier-project/
 | TC16 | Somente números | `123456` | Inválido |
 
 Mais um teste extra de valor limite (0 caracteres), explicitando a análise de
-valor limite pedida no item "Adicional" do enunciado.
-
+valor limite.
 ## Como rodar
 
 ### Opção A — Com Maven (recomendado, requer internet na 1ª execução para baixar as dependências)
@@ -76,5 +74,4 @@ java -jar lib/junit-platform-console-standalone-1.9.1.jar execute \
 [         0 tests failed          ]
 ```
 
-Todos os 16 casos da planilha (mais o caso extra de valor limite) passam
-contra a implementação fornecida de `Identifier.java`.
+Todos os 17 casos passam nessa implementação.
