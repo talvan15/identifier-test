@@ -3,6 +3,10 @@
 Implementação dos testes automatizados do programa **Identifier**, seguindo os
 casos de teste definidos.
 
+## 📚 Documentação
+
+- 📂 [Acessar documentação](./docs)
+
 ## Estrutura do projeto
 
 ```
