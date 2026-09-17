@@ -5,7 +5,7 @@ casos de teste definidos.
 
 ## 📚 Documentação
 
-- 📂 [Acessar documentação](./docs)
+- 📂 [Acessar Relatório](./docs)
 
 ## Estrutura do projeto
 
